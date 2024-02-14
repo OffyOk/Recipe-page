@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: brown;
+}
+
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.recipe{
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: white;
+    max-width: 650px;
+}
+
+.intro{
+    padding: 10px 0px;
+}
+.ompic{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h1,h3{
+    font-family: "Young Serif", serif;
+    color: rgb(48, 13, 87);
+    font-weight: 500;
+
+}
+
+.intstruction-list{
+    color: brown;
+    font-weight: 700;
+}
+
+.preparation{
+    padding: 5px 25px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.instructions{
+    border-top: 1px solid rgb(188, 184, 184);
+    border-bottom: 1px solid rgb(188, 184, 184);
+}
+li {
+    line-height: 2.5;
+}
+
+table{
+    width: 100%;
+
+}
+table,td{
+    border-bottom: 1px solid rgb(188, 184, 184);
+    border-collapse: collapse;
+}
+
+table td:last-child{
+    font-weight: bold;
+}
+
+
+@media(max-width:400px){
+    body{
+        margin: 0;
+    }
+    .recipe{
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .intro{
+        padding: 0;
+    }
+
+    .simple, .preparation, .ingredients, .instructions, .nutritional{
+        padding: 10px 15px;
+    }
+    .ompic{
+        border-radius: 0;
+    }
+    
+}
